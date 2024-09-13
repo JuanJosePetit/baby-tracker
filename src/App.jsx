@@ -17,7 +17,7 @@ function App() {
 
   return (
 
-      <BrowserRouter>
+      <BrowserRouter basename="/baby-tracker">
         <Routes>
           <Route path="/registro" element={<Registro />} />
           <Route path="/" element={<Login />} />
